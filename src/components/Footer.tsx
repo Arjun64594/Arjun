@@ -33,8 +33,8 @@ export const Footer: React.FC<FooterProps> = ({ onResumeClick, onDeployGuideClic
               D
             </div>
             <div>
-              <div className="font-bold text-white text-base">Devika E.K.S</div>
-              <div className="text-xs text-slate-500">React Specialist • Java & Spring Boot • Gen AI Developer</div>
+              <div className="font-bold text-white text-base">Arjun M</div>
+              <div className="text-xs text-slate-500">Cyber Security & Software Engineer</div>
             </div>
           </div>
 

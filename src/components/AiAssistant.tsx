@@ -86,8 +86,8 @@ She combines her strong full-stack skills with modern Gen AI techniques to build
       return `You can reach Devika directly:
 • Email: devikasatheesan489@gmail.com
 • Phone / WhatsApp: +91 8681995349
-• LinkedIn: https://www.linkedin.com/in/devika-e-k-s-8ba583242/
-• GitHub: https://github.com/DevikaEKS
+• LinkedIn: https://www.linkedin.com/in/arjun2604/
+• GitHub: https://github.com/Arjun64594
 She is currently open to full-time engineering roles, hybrid, and remote opportunities!`;
     }
 

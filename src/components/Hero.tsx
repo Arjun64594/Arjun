@@ -62,7 +62,7 @@ export const Hero: React.FC<HeroProps> = ({
                 <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
               </span>
               <span className="text-xs sm:text-sm font-medium text-slate-300">
-                Available for Software & Gen AI Roles
+                Available for Software & Cyber Security Roles, Remote & Hybrid
               </span>
               <span className="text-xs text-indigo-400 bg-indigo-950/70 px-2 py-0.5 rounded-md font-mono hidden sm:inline">
                 Remote / Hybrid
@@ -72,10 +72,10 @@ export const Hero: React.FC<HeroProps> = ({
             {/* Headline */}
             <div className="space-y-3">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-[1.12]">
-                Hi, I'm <span className="text-gradient">Devika E.K.S</span>
+                Hi, I'm <span className="text-gradient">Arjun M</span>
                 <br />
                 <span className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-200">
-                  Full Stack & Gen AI Developer
+                  Full Stack & Cyber Security Engineer
                 </span>
               </h1>
               
@@ -84,22 +84,7 @@ export const Hero: React.FC<HeroProps> = ({
               </p>
             </div>
 
-            {/* Key Credential Badges */}
-            <div className="flex flex-wrap items-center gap-2.5 sm:gap-3 text-xs sm:text-sm">
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300">
-                <Award className="w-4 h-4 text-amber-400" />
-                <span>MCA University Rank Holder</span>
-              </div>
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300">
-                <CheckCircle2 className="w-4 h-4 text-cyan-400" />
-                <span>Meta Certified Front-End</span>
-              </div>
-              <div className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300">
-                <Code2 className="w-4 h-4 text-emerald-400" />
-                <span>KG Genius Labs Experience</span>
-              </div>
-            </div>
-
+           
             {/* CTAs */}
             <div className="flex flex-wrap items-center gap-3 pt-2">
               <a
@@ -109,9 +94,6 @@ export const Hero: React.FC<HeroProps> = ({
                 <span>Explore Projects</span>
                 <ArrowRight className="w-4 h-4" />
               </a>
-
-              
-
 
              
             </div>
@@ -126,7 +108,7 @@ export const Hero: React.FC<HeroProps> = ({
                 className="flex items-center gap-1.5 text-slate-300 hover:text-white transition-colors"
               >
                 <Github className="w-4 h-4 text-slate-400" />
-                <span>GitHub/DevikaEKS</span>
+                <span>GitHub</span>
               </a>
               <a 
                 href={PORTFOLIO_DATA.personal.linkedin} 
@@ -170,45 +152,25 @@ export const Hero: React.FC<HeroProps> = ({
                   <span className="text-purple-400">const</span> <span className="text-amber-300">developer</span> = &#123;
                 </p>
                 <p className="pl-4">
-                  <span className="text-slate-400">name:</span> <span className="text-emerald-300">"Devika E.K.S"</span>,
+                  <span className="text-slate-400">name:</span> <span className="text-emerald-300">"Arjun M"</span>,
                 </p>
-                <p className="pl-4">
-                  <span className="text-slate-400">currentRole:</span> <span className="text-cyan-300">"Frontend Developer @ KG Genius Labs"</span>,
-                </p>
-                <p className="pl-4">
-                  <span className="text-slate-400">priorRole:</span> <span className="text-cyan-300">"Technical Trainer @ KG Microcollege"</span>,
-                </p>
+               
+               
                 <p className="pl-4">
                   <span className="text-slate-400">stacks:</span> [
                   <span className="text-indigo-300">"React"</span>, <span className="text-amber-300">"Java/Spring Boot"</span>, <span className="text-emerald-300">"MERN"</span>, <span className="text-pink-300">"Gen AI"</span>
                   ],
                 </p>
+               
+               
                 <p className="pl-4">
-                  <span className="text-slate-400">education:</span> <span className="text-emerald-300">"MCA (University Rank Holder)"</span>,
-                </p>
-                <p className="pl-4">
-                  <span className="text-slate-400">mentorshipImpact:</span> <span className="text-amber-300">"500+ Engineers Trained"</span>,
-                </p>
-                <p className="pl-4">
-                  <span className="text-slate-400">passions:</span> [<span className="text-purple-300">"UI Performance"</span>, <span className="text-purple-300">"Microservices"</span>, <span className="text-purple-300">"AI Agents"</span>]
+                  <span className="text-slate-400">passions:</span> [<span className="text-purple-300">"UI Performance"</span>, <span className="text-purple-300">"Cybersecurity"</span>, <span className="text-purple-300">"AI Agents"</span>]
                 </p>
                 <p>&#125;;</p>
               </div>
 
               {/* Interactive quick action banner */}
-              <div className="mt-2 pt-3 border-t border-slate-800 flex items-center justify-between">
-                <span className="text-xs text-slate-400 font-mono flex items-center gap-1.5">
-                  <Terminal className="w-3.5 h-3.5 text-indigo-400" />
-                  <span>GitHub Pages Ready</span>
-                </span>
-                <button
-                  onClick={onDeployGuideClick}
-                  className="text-xs text-indigo-400 hover:text-indigo-300 font-medium flex items-center gap-1"
-                >
-                  <Rocket className="w-3 h-3" />
-                  <span>View 100% Free Deploy Guide</span>
-                </button>
-              </div>
+              
             </div>
 
             {/* Quick tech pills below card */}
@@ -226,31 +188,7 @@ export const Hero: React.FC<HeroProps> = ({
         </div>
 
         {/* Highlight Stats Row */}
-        <div className="mt-14 sm:mt-20 grid grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-          <div className="p-4 sm:p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
-            <div className="text-2xl sm:text-3xl font-extrabold text-white">2+ Years</div>
-            <div className="text-xs sm:text-sm text-slate-400 mt-1">Professional Experience</div>
-            <div className="text-[11px] text-indigo-400 mt-0.5">KG Genius Labs & Microcollege</div>
-          </div>
-
-          <div className="p-4 sm:p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
-            <div className="text-2xl sm:text-3xl font-extrabold text-emerald-400">500+</div>
-            <div className="text-xs sm:text-sm text-slate-400 mt-1">Students Trained</div>
-            <div className="text-[11px] text-emerald-400 mt-0.5">Online & In-Person Bootcamps</div>
-          </div>
-
-          <div className="p-4 sm:p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
-            <div className="text-2xl sm:text-3xl font-extrabold text-purple-400">Rank Holder</div>
-            <div className="text-xs sm:text-sm text-slate-400 mt-1">University MCA Honor</div>
-            <div className="text-[11px] text-purple-400 mt-0.5">KGISL Institute of Info Mgmt</div>
-          </div>
-
-          <div className="p-4 sm:p-5 rounded-xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition-colors">
-            <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400">Meta Certified</div>
-            <div className="text-xs sm:text-sm text-slate-400 mt-1">React & Front-End Specialist</div>
-            <div className="text-[11px] text-cyan-400 mt-0.5">Industry-standard credentials</div>
-          </div>
-        </div>
+    
 
       </div>
     </section>

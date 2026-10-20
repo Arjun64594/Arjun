@@ -51,10 +51,10 @@ export const Navbar: React.FC<NavbarProps> = ({
             </div>
             <div>
               <div className="font-bold text-base sm:text-lg tracking-tight text-white group-hover:text-indigo-400 transition-colors">
-                Devika E.K.S
+                Arjun M
               </div>
               <div className="text-xs text-slate-400 hidden sm:block">
-                Software & Gen AI Developer
+               Cyber Security & Software Engineer 
               </div>
             </div>
           </a>

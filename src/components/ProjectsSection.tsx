@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 import { PORTFOLIO_DATA, Project } from '../data/portfolioData';
 
-type CategoryFilter = 'All' | 'Gen AI' | 'Full Stack' | 'Java & Spring Boot' | 'Frontend';
+type CategoryFilter = 'Full Stack' | 'Cyber Security' ;
 
 export const ProjectsSection: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<CategoryFilter>('All');
@@ -57,7 +57,7 @@ export const ProjectsSection: React.FC = () => {
         );
       } else {
         setAiResponse(
-          `Devika's Gen AI Pipeline Processed "${aiPrompt}":\n\nOptimized with prompt template:\n• System Prompt: Senior Software Engineer\n• Grounding: Spring Boot + React Ecosystem\n• Code synthesis ready with zero hallucinations.`
+          `Arjun M's Gen AI Pipeline Processed "${aiPrompt}":\n\nOptimized with prompt template:\n• System Prompt: Senior Software Engineer\n• Grounding: Spring Boot + React Ecosystem\n• Code synthesis ready with zero hallucinations.`
         );
       }
       setIsGenerating(false);
@@ -371,7 +371,7 @@ export const ProjectsSection: React.FC = () => {
                   </div>
                   <div className="p-2.5 rounded bg-slate-900 text-slate-300 text-[11px] leading-relaxed">
                     <code>
-                      [INFO] Running com.devika.assessment.AlgorithmEvaluatorTest<br/>
+                      [INFO] Running com.arjun.assessment.AlgorithmEvaluatorTest<br/>
                       [INFO] Tests run: 14, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.412 s<br/>
                       [INFO] Memory Peak: 48.2 MB | CPU Execution Score: 99.4/100
                     </code>
@@ -394,15 +394,7 @@ export const ProjectsSection: React.FC = () => {
 
             {/* Modal Actions */}
             <div className="flex items-center justify-between pt-4 border-t border-slate-800">
-              <a
-                href={activeProjectModal.githubUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold transition-colors"
-              >
-                <Github className="w-4 h-4" />
-                <span>View on Devika's GitHub</span>
-              </a>
+              
 
               <button
                 onClick={() => setActiveProjectModal(null)}

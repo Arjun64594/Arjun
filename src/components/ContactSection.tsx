@@ -20,7 +20,7 @@ export const ContactSection: React.FC = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: 'Opportunity Inquiry for Devika E.K.S',
+    subject: 'Opportunity Inquiry for Arjun M',
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -37,7 +37,7 @@ export const ContactSection: React.FC = () => {
     const mailto = `mailto:${PORTFOLIO_DATA.personal.email}?subject=${encodeURIComponent(
       formData.subject || 'Opportunity Inquiry'
     )}&body=${encodeURIComponent(
-      `Hello Devika,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+      `Hello Arjun,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     window.location.href = mailto;
     setIsSubmitted(true);
@@ -54,7 +54,7 @@ export const ContactSection: React.FC = () => {
             <span>Let's Connect</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Get in Touch with Devika
+            Get in Touch with Arjun
           </h2>
           <p className="mt-3 text-slate-400 text-base">
             Exploring full-time software engineering roles, technical leadership, or high-impact contract opportunities.
@@ -153,7 +153,7 @@ export const ContactSection: React.FC = () => {
                     rel="noopener noreferrer"
                     className="text-sm font-bold text-white hover:text-indigo-400 transition-colors flex items-center gap-1"
                   >
-                    <span>github.com/DevikaEKS</span>
+                    <span>github.com/Arjun64594</span>
                     <ExternalLink className="w-3.5 h-3.5" />
                   </a>
                 </div>
@@ -167,7 +167,7 @@ export const ContactSection: React.FC = () => {
                 <span>Location & Relocation</span>
               </div>
               <p className="text-xs text-slate-300">
-                Based in <strong className="text-white">Tamil Nadu / Kerala, India</strong>. Actively available for Remote positions worldwide or Hybrid/On-site opportunities.
+                Based in <strong className="text-white">Tamil Nadu, India</strong>. Actively available for Remote positions worldwide or Hybrid/On-site opportunities.
               </p>
             </div>
 
@@ -180,7 +180,7 @@ export const ContactSection: React.FC = () => {
                 Send a Message or Job Inquiry
               </h3>
               <p className="text-xs sm:text-sm text-slate-400 mb-6">
-                Fill out the details below to initiate direct communication with Devika.
+                Fill out the details below to initiate direct communication with Arjun.
               </p>
 
               {isSubmitted ? (
@@ -190,7 +190,7 @@ export const ContactSection: React.FC = () => {
                   </div>
                   <h4 className="text-base font-bold text-white">Opening Mail Client!</h4>
                   <p className="text-xs text-slate-300">
-                    Your email client will open with your pre-filled inquiry. You can also reach out anytime at <strong className="text-white">devikasatheesan489@gmail.com</strong>.
+                    Your email client will open with your pre-filled inquiry. You can also reach out anytime at <strong className="text-white">arjun.m0204@gmail.com</strong>.
                   </p>
                   <button
                     onClick={() => setIsSubmitted(false)}
@@ -254,7 +254,7 @@ export const ContactSection: React.FC = () => {
                       required
                       value={formData.message}
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Tell Devika about your team, tech stack, or the project requirements..."
+                      placeholder="Tell Arjun about your team, tech stack, or the project requirements..."
                       className="w-full px-3.5 py-2.5 rounded-xl bg-slate-950 border border-slate-800 text-xs sm:text-sm text-white placeholder-slate-500 focus:outline-none focus:border-indigo-500"
                     />
                   </div>
@@ -264,7 +264,7 @@ export const ContactSection: React.FC = () => {
                     className="w-full py-3 rounded-xl bg-gradient-to-r from-indigo-600 via-indigo-500 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-white font-semibold text-sm shadow-lg shadow-indigo-600/30 flex items-center justify-center gap-2 active:scale-95 transition-all"
                   >
                     <Send className="w-4 h-4" />
-                    <span>Send Inquiry to Devika</span>
+                    <span>Send Inquiry to Arjun</span>
                   </button>
                 </form>
               )}
